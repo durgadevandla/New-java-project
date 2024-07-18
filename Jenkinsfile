@@ -7,7 +7,7 @@ pipeline {
   stages {
         stage('GIT Checkout') {
             steps {
-                git 'https://github.com/your-repo/java-project.git' // Replace with your repo URL
+                git 'https://github.com/durgadevandla/New-java-project.git' // Replace with your repo URL
             }
         }
         stage('Build') {
